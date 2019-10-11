@@ -1,0 +1,22 @@
+.input__container {
+    border: .0625rem solid var(--color_grey);
+    display: flex;
+    height: 3.25rem;
+    margin-bottom: var(--spacing_s);
+}
+
+.input__text {
+    border-width: 0;
+    border-left: .0625rem solid var(--color_grey);
+    font-family: 'Muli', sans-serif;
+    font-size: .875rem;
+    padding-left: var(--spacing_m);
+    width: 100%;
+}
+
+.input__image {
+    align-self: center;
+    height: calc(50%);
+    margin: var(--spacing_m);
+    padding-left: .75rem;
+}

@@ -1,0 +1,4 @@
+:root {
+  --breakpoint_tablette: 768px;
+  --breakpoint_mobile: 480px;
+}
