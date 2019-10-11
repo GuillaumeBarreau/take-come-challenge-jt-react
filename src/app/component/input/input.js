@@ -4,7 +4,7 @@ import "./input.css";
 
 export const Input = ({ value }) => {
     return (
-        <div className="input__container">
+        <div className="input input__container">
             <img src="/icon/icon-search.svg" className="input__image" alt="Recherche" />
             <input
                 className="input__text"

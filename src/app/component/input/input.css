@@ -1,7 +1,10 @@
-.input__container {
-    border: .0625rem solid var(--color_grey);
+.input {
     display: flex;
     height: 3.25rem;
+}
+
+.input__container {
+    border: .0625rem solid var(--color_grey);
     margin-bottom: var(--spacing_s);
 }
 

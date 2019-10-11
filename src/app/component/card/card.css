@@ -1,0 +1,11 @@
+.card {
+    margin: 8px 4px;
+    padding: 10px;
+}
+
+.card__text {
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0, 0.05);
+    font-family: 'Muli', sans-serif;
+    list-style: none;
+}
