@@ -5,7 +5,7 @@ import { Layout } from "./layout/layout";
 function App() {
     return (
         <Layout>
-            <section></section>
+            <section />
         </Layout>
     );
 }
