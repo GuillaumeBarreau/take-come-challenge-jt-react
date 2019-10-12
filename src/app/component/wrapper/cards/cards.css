@@ -1,0 +1,10 @@
+.wrapper-cards__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    .wrapper-cards__list {
+        flex-direction: column;
+    }
+}
