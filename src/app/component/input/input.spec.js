@@ -1,14 +1,32 @@
 import React from "react";
-import { Input } from "./input";
+import Input from "./input";
 import { shallow } from "enzyme";
+import configureStore from 'redux-mock-store';
+import { Provider } from 'react-redux';
+const mockStore = configureStore([]);
 
 describe("Input", () => {
-    it("should not throw an error", () => {
-        expect(shallow(<Input />)).toBeTruthy();
+    let store;
+
+    beforeEach(() => {
+        store = mockStore({
+            cards: [
+                {
+                    _id: '5d10a1fdc4a42d1426d14ac6',
+                    name: 'Mediot',
+                    tags: ['itemA', 'itemB'],
+                },
+            ],
+        });
     });
 
-    it("should display the unit", () => {
-        const cmp = shallow(<Input value="mock_value" />);
-        expect(cmp.debug()).toContain("mock_value");
+    it("should not throw an error", () => {
+        expect(
+            shallow(
+                <Provider store={store}>
+                    <Input />
+                </Provider>
+            )
+        ).toBeTruthy();
     });
 });
