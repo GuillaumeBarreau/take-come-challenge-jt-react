@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-import "./cards.css";
 import { Card } from "../../card/card";
 
 export const WrapperCards = ( ) => {

@@ -4,14 +4,14 @@
 }
 
 .input__container {
-    border: .0625rem solid var(--color_grey);
+    border: 0.0625rem solid var(--color_grey);
 }
 
 .input__text {
     border-width: 0;
-    border-left: .0625rem solid var(--color_grey);
+    border-left: 0.0625rem solid var(--color_grey);
     font-family: 'Muli', sans-serif;
-    font-size: .875rem;
+    font-size: 0.875rem;
     padding-left: var(--spacing_m);
     width: 100%;
 }
@@ -20,5 +20,5 @@
     align-self: center;
     height: calc(50%);
     margin: var(--spacing_m);
-    padding-left: .75rem;
+    padding-left: 0.75rem;
 }

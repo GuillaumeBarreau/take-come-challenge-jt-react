@@ -10,6 +10,11 @@ export const Layout = ({ children }) => {
     );
 };
 
+Layout.defaultProps = {
+    children: "Children Not found",
+};
+
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
 };
+

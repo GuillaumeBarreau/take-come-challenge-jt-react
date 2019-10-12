@@ -1,5 +1,4 @@
 import React from 'react';
-import './app.css';
 import { Layout } from "./layout/layout";
 import { Input } from "./component/input/input";
 import { WrapperCards } from "./component/wrapper/cards/cards";

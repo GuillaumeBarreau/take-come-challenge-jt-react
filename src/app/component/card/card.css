@@ -1,5 +1,5 @@
 .card {
-    padding: .625rem;
+    padding: 0.625rem;
     background: white;
     margin-top: 16px;
 }
@@ -9,8 +9,8 @@
 }
 
 .card__text {
-    border: .0625rem solid var(--color_grey_light);
-    box-shadow: 0 .625rem 1.25rem 0 rgba(0,0,0, 0.05);
+    border: 0.0625rem solid var(--color_grey_light);
+    box-shadow: 0 0.625rem 1.25rem 0 rgba(0, 0, 0, 0.05);
     font-family: 'Muli', sans-serif;
     list-style: none;
 }

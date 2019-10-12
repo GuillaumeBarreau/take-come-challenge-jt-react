@@ -1,6 +1,6 @@
 :root {
-  --spacing_s: .25rem;
-  --spacing_m: .5rem;
-  --spacing_l: 1rem;
-  --spacing_xl: 1.5rem;
+    --spacing_s: 0.25rem;
+    --spacing_m: 0.5rem;
+    --spacing_l: 1rem;
+    --spacing_xl: 1.5rem;
 }
