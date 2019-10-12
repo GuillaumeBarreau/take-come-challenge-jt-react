@@ -7,8 +7,10 @@ import { Card } from "./component/card/card";
 function App() {
     return (
         <Layout>
-            <Input />
-            <Card />
+            <section>
+                <Input />
+                <Card />
+            </section>
         </Layout>
     );
 }

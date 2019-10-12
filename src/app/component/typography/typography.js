@@ -5,7 +5,7 @@ import "./typography.css";
 export const Typography = ({ children }) => {
     return (
         <p className="typography typography__text">
-            {children}
+            <strong>{children}</strong>
         </p>
     );
 };
