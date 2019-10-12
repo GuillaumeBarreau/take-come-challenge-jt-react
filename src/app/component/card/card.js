@@ -7,7 +7,7 @@ import { WrapperTags } from "../wrapper/tags/tags";
 
 export const Card = ({ name, tags }) => {
     return (
-        <li className="card card__text">
+        <li className="card card__container">
             <Typography>
                 {name}
             </Typography>
