@@ -5,7 +5,6 @@
 
 .input__container {
     border: .0625rem solid var(--color_grey);
-    margin-bottom: var(--spacing_s);
 }
 
 .input__text {

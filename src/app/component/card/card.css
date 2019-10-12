@@ -1,6 +1,11 @@
 .card {
-    margin: var(--spacing_m) var(--spacing_s);
     padding: .625rem;
+    background: white;
+    margin-top: 16px;
+}
+
+.card:nth-of-type(1) {
+    margin-top: 12px;
 }
 
 .card__text {
