@@ -2,14 +2,14 @@ import React from 'react';
 import './app.css';
 import { Layout } from "./layout/layout";
 import { Input } from "./component/input/input";
-import { Card } from "./component/card/card";
+import { WrapperCards } from "./component/wrapper/cards/cards";
 
 function App() {
     return (
         <Layout>
             <section>
                 <Input />
-                <Card />
+                <WrapperCards />
             </section>
         </Layout>
     );
