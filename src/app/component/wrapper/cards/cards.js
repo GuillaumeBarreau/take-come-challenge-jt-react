@@ -1,19 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import "./cards.css";
 
 import { Card } from "../../card/card";
 
-export const WrapperCards = ( ) => {
-    const [cards, setCards] = useState([]);
-
-    useEffect(() => {
-        fetch("/data/results.json")
-            .then(res => res.json())
-            .then(data => setCards(data))
-            .catch(console.error.bind(console));
-    }, []);
-
+const WrapperCards = ( { cards } ) => {
     return (
         <ul className="wrapper-cards wrapper-cards__list">
             {
@@ -29,6 +21,12 @@ export const WrapperCards = ( ) => {
     );
 };
 
+const mapStateToProps = state => {
+    return {
+        cards: state,
+    };
+};
+
 WrapperCards.defaultProps = {
     cards: [],
 };
@@ -36,3 +34,5 @@ WrapperCards.defaultProps = {
 WrapperCards.propTypes = {
     cards: PropTypes.array,
 };
+
+export default connect(mapStateToProps)(WrapperCards);
