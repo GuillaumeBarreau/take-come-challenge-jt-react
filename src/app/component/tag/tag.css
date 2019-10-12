@@ -1,6 +1,6 @@
 .tag {
     margin: var(--spacing_s);
-    padding: 9.5px;
+    padding: 9.5px 16px;
 }
 
 .tag__text {
