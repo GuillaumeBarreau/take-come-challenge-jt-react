@@ -3,21 +3,27 @@ import PropTypes from "prop-types";
 import "./card.css";
 
 import { Typography } from "../typography/typography";
+import { WrapperTags } from "../wrapper/tags/tags";
 
-export const Card = ({ title, tags  }) => {
+export const Card = ({ name, tags, tag  }) => {
     return (
         <li className="card card__text">
-            <Typography>{title}</Typography>
+            <Typography>
+                {name}
+            </Typography>
+            <WrapperTags tags={tags} />
         </li>
     );
 };
 
 Card.defaultProps = {
-    title: "Title",
-    tags: ['aze', 'aze', 'aze', 'aze']
+    name: "name",
+    tag: "tag",
+    tags: ['default01', 'default02', 'default03', 'default04', 'default05']
 };
 
 Card.propTypes = {
-    title: PropTypes.string,
+    name: PropTypes.string,
+    tag: PropTypes.string,
     tags: PropTypes.array,
 };

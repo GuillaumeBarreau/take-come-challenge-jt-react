@@ -1,0 +1,15 @@
+.tag {
+    margin: var(--spacing_s);
+    padding: 9.5px;
+}
+
+.tag__text {
+    background: #FCFCFC;
+    border-radius: 30px;
+    border: 1px solid #ECECEC;
+    color: #777;
+    display: flex;
+    display: inline-block;
+    font-size: 11px;
+    list-style: none;
+}
