@@ -17,8 +17,8 @@ export const Card = ({ name, tags }) => {
 };
 
 Card.defaultProps = {
-    name: "name",
-    tags: ['default01', 'default02', 'default03', 'default04', 'default05']
+    name: "",
+    tags: []
 };
 
 Card.propTypes = {

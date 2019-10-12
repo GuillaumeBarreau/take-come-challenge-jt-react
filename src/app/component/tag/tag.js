@@ -11,7 +11,7 @@ export const Tag = ({ children }) => {
 };
 
 Tag.defaultProps = {
-    children: "default",
+    children: "",
 };
 
 Tag.propTypes = {

@@ -17,7 +17,10 @@ jobs:
             - /home/circleci/.npm
       - run:
           name: Run Tests
-          command: npm test
+          command: npm run test:ci
       - run:
-          name: Run Linter
-          command: npm run lint
+          name: Run Linter JS
+          command: npm run lint:js
+      - run:
+          name: Run Linter CSS
+          command: npm run lint:css
