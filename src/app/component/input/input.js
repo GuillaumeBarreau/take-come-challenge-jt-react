@@ -21,7 +21,6 @@ const Input = ({ dispatch }) => {
     );
 };
 
-
 Input.defaultProps = {
     value: "",
 };

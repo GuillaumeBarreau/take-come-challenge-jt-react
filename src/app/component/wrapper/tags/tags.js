@@ -6,7 +6,7 @@ import { Tag } from "../../tag/tag";
 
 export const WrapperTags = ({ tags }) => {
     return (
-        <ul className="wrapper-tags wrapper-tags__list">
+        <ul className="wrapper-tags wrapper-tags__container">
             {
                 tags.map( (name) =>
                     <Tag key={name} >

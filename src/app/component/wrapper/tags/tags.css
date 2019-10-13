@@ -1,10 +1,10 @@
-.wrapper-tags__list {
+.wrapper-tags__container {
     display: flex;
     flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
-    .wrapper-tags__list {
+    .wrapper-tags__container {
         justify-content: center;
     }
 }
