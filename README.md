@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/GuillaumeBarreau/take-come-challenge-jt-react/tree/master.svg?style=svg)](https://circleci.com/gh/GuillaumeBarreau/take-come-challenge-jt-react/tree/master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
 We've added some other tools and technologie like:
 
