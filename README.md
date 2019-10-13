@@ -26,6 +26,10 @@ Launches the test runner in the interactive watch mode.<br />
 
 Launches the test runner for linter CSS and Lint JS.<br />
 
+### `npm run coverage`
+
+Launches the test runner width coverage information.<br />
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
