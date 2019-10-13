@@ -1,10 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
 We've added some other tools and technologie like:
 
-husky
-enzyme
-stylelint
-redux
+husky<br />
+enzyme<br />
+stylelint<br />
+redux<br />
 
 ## Available Scripts
 
