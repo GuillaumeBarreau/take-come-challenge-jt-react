@@ -7,7 +7,7 @@ import { Card } from "../../card/card";
 
 const WrapperCards = ( { cards } ) => {
     return (
-        <ul className="wrapper-cards wrapper-cards__list">
+        <ul className="wrapper-cards wrapper-cards__container">
             {
                 cards.map((card,i) =>
                     <Card
@@ -23,7 +23,7 @@ const WrapperCards = ( { cards } ) => {
 
 const mapStateToProps = state => {
     return {
-        cards: state,
+        cards: state.cards,
     };
 };
 

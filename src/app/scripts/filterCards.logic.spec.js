@@ -1,4 +1,4 @@
-import { filterCards } from './rootReducer.logic';
+import { filterCards } from './filterCards.logic';
 
 describe('Tag', () => {
     let cards;
