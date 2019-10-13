@@ -14,6 +14,8 @@ function App() {
             <Layout>
                 <section>
                     <Input />
+                </section>
+                <section>
                     <WrapperCards />
                 </section>
             </Layout>
