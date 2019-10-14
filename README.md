@@ -10,6 +10,23 @@ enzyme<br />
 stylelint<br />
 redux<br />
 
+## Build Setup
+
+``` bash
+
+# Clone repository
+$ git clone ......
+
+# Move directory
+$ cd take-home-challenge-jt-react
+
+# Install dependencies
+$ npm install
+
+# Serve with hot reload at localhost:3000
+$ npm run start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
