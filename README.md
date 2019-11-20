@@ -1,14 +1,16 @@
 # Take home challenge JT
 
-[![CircleCI](https://circleci.com/gh/GuillaumeBarreau/challenge-SA/tree/master.svg?style=svg)](https://circleci.com/gh/GuillaumeBarreau/challenge-SA/tree/master)
+[![CircleCI](https://circleci.com/gh/GuillaumeBarreau/take-home-challenge-jt-react/tree/master.svg?style=svg)](https://circleci.com/gh/GuillaumeBarreau/take-home-challenge-jt-react/tree/master)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
 We've added some other tools and technologie like:
 
 react<br />
+husky<br />
 enzyme<br />
 stylelint<br />
 proptypes<br />
+redux<br />
 
 ## Build Setup
 
@@ -18,7 +20,7 @@ proptypes<br />
 $ git clone ......
 
 # Move directory
-$ cd challenge-SA
+$ cd take-home-challenge-jt-react
 
 # Install dependencies
 $ npm install
